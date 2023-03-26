@@ -1,0 +1,20 @@
+.row {
+    background-color: rgb(14, 161, 168) ;
+    padding: 20px;
+}
+
+.contenedor {
+    width: auto;
+
+}
+
+.parte1 , .parte2 {
+    display:inline-block;
+    text-align: justify;
+}
+
+.img-proyecto1 {
+    box-shadow: 10px 10px 30px rgb(253, 255, 255);
+    box-shadow: ejeX ejeY difumasion cornsilk;
+
+}
