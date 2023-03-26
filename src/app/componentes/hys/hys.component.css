@@ -1,5 +1,9 @@
+h1 {
+    color:  rgb(7, 104, 110) !important;
+}
+
 .row{
-    background-color: rgb(207, 243, 245);
+    background-color:rgb(230, 236, 236);
     padding: 20px;
 }
 

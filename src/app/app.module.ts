@@ -24,6 +24,9 @@ import { EditarEstudiosComponent } from './componentes/estudios/editarestudios.c
 import { EditarSkillComponent } from './componentes/hys/editar-skill.component';
 import { NuevoSkillComponent } from './componentes/hys/nuevo-skill.component';
 import { EditarAcercaDeComponent } from './componentes/acerca-de/editar-acerca-de.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
 
 @NgModule({
   declarations: [
@@ -72,6 +75,8 @@ import { EditarAcercaDeComponent } from './componentes/acerca-de/editar-acerca-d
       "lazy": true
     }),
     HttpClientModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage()),
   ],
   providers: [
     InterceptorProvider

@@ -1,10 +1,14 @@
+h1 {
+    color:  rgb(7, 104, 110) !important;
+}
+
 .row {
     padding: 20px;
 
 }
 
 div{
-    background:  rgb(14, 161, 168);
+    background:  rgb(230, 236, 236);
 }
 
 h1,h2 {

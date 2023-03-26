@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { JwtDto } from '../model/jwt-dto';
 import { LoginUsuario } from '../model/login-usuario';
-import { environment } from '../environments/environment';
+import { environment } from '../../environments/environment';
 import { NuevoUsuario } from '../model/nuevo-usuario';
 
 @Injectable({
